@@ -1,6 +1,6 @@
-# VSCode Extension for the LDPL Programming Language
+![A VSCode Extesnion for theh LDPL Program Language](dinos.JPEG)
 
-![LDPL Dinosaur & Bizarro VSCode Dino](dinos.JPEG)
+-----
 
 Just syntax highlighting, really. For [The LDPL Programming Language](https://ldpl.lartu.net/).
 
