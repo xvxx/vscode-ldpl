@@ -6,6 +6,7 @@
     "publisher": "dvkt",
     "repository": "https://github.com/dvkt/vscode-ldpl",
     "icon": "icon.png",
+    "galleryBanner.color": "#ffffff",
     "engines": {
         "vscode": "^1.32.0"
     },
