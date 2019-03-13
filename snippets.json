@@ -13,6 +13,27 @@
             "PROCEDURE:\n$2"
         ]
     },
+    "number vector": {
+        "prefix": "nv",
+        "description": "number vector",
+        "body": [
+            "number vector"
+        ]
+    },
+    "string vector": {
+        "prefix": "sv",
+        "description": "string vector",
+        "body": [
+            "string vector"
+        ]
+    },
+    "lookup": {
+        "prefix": "at",
+        "description": "vector element lookup",
+        "body": [
+            "$1:$2 "
+        ]
+    },
     "sub-procedure": {
         "prefix": "sub",
         "description": "sub-procedure definition",
