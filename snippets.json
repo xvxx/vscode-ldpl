@@ -1,180 +1,210 @@
 {
     "DATA": {
     "prefix": "data",
+    "description": "DATA: and PROCEDURE: headers",
     "body": [
         "DATA:\n$1\n\nPROCEDURE:\n$2"
     ]
     },
     "PROCEDURE": {
         "prefix": "pro",
+        "description": "PROCEDURE: header",
         "body": [
             "PROCEDURE:\n$2"
         ]
     },
     "sub-procedure": {
         "prefix": "sub",
+        "description": "sub-procedure definition",
         "body": [
             "sub-procedure $1\n\t$2\rend sub-procedure"
         ]
     },
     "call sub-procedure": {
         "prefix": "call",
+        "description": "call sub-procedure",
         "body": [
             "call sub-procedure $1"
         ]
     },
     "store": {
         "prefix": "st",
+        "description": "store x in v",
         "body": [
             "store $1 in $2"
         ]
     },
     "length": {
         "prefix": "stl",
+        "description": "store length of x in v",
         "body": [
             "store length of $1 in $2"
         ]
     },
     "display": {
         "prefix": "dis",
+        "description": "display",
         "body": [
             "display $1"
         ]
     },
     "display with crlf": {
         "prefix": "dc",
+        "description": "display x crlf",
         "body": [
             "display $1 crlf"
         ]
     },
     "while": {
         "prefix": "while",
+        "description": "while loop",
         "body": [
             "while $1 is $2 do\n\t$3\nrepeat"
         ]
     },
     "if": {
         "prefix": "if",
+        "description": "if block",
         "body": [
             "if $1 is $2 then\n\t$3\nend if"
         ]
     },
     "if else": {
         "prefix": "ife",
+        "description": "if else block",
         "body": [
             "if $1 is $2 then\n\t$3\nelse\n\t$4\nend if"
         ]
     },
     "equal to": {
         "prefix": "eq",
+        "description": "equal to",
         "body": [
             "equal to"
         ]
     },
     "not equal to": {
         "prefix": "neq",
+        "description": "not equal to",
         "body": [
             "not equal to"
         ]
     },
     "greater than": {
         "prefix": "gt",
+        "description": "greater than",
         "body": [
             "greater than"
         ]
     },
     "greater than or equal to": {
         "prefix": "gte",
+        "description": "greater than or equal to",
         "body": [
             "greater than or equal to"
         ]
     },
     "less than": {
         "prefix": "lt",
+        "description": "less than",
         "body": [
             "less than"
         ]
     },
     "less than or equal to": {
         "prefix": "lte",
+        "description": "less than or equal to",
         "body": [
             "less than or equal to"
         ]
     },
     "join": {
         "prefix": "join",
+        "description": "join x and y in v",
         "body": [
             "join $1 and $2 in $3"
         ]
     },
     "add": {
         "prefix": "add",
+        "description": "add x and y in v",
         "body": [
             "add $1 and $2 in $3"
         ]
     },
     "subtract": {
         "prefix": "subtract",
+        "description": "subtract x and y in v",
         "body": [
             "subtract $1 and $2 in $3"
         ]
     },
     "divide": {
         "prefix": "divide",
+        "description": "divide x and y in v",
         "body": [
             "divide $1 and $2 in $3"
         ]
     },
     "multiply": {
         "prefix": "multiply",
+        "description": "multiply x and y in v",
         "body": [
             "multiply $1 and $2 in $3"
         ]
     },
     "modulo": {
         "prefix": "modulo",
+        "description": "modulo x and y in v",
         "body": [
             "modulo $1 and $2 in $3"
         ]
     },
     "random": {
         "prefix": "rand",
+        "description": "store random number",
         "body": [
             "store random in $1"
         ]
     },
     "get character": {
         "prefix": "gc",
+        "description": "get character from text",
         "body": [
             "get character at $1 from $2 in $3"
         ]
     },
     "store character": {
         "prefix": "sc",
+        "description": "store character from text in var",
         "body": [
             "store character $1 in $2"
         ]
     },
     "store character code": {
         "prefix": "scc",
+        "description": "store character code from text in var",
         "body": [
             "store character code of $1 in $2"
         ]
     },
     "execute and store output": {
         "prefix": "exec",
+        "description": "execute shell command and store output in var",
         "body": [
             "execute $1 and store output in $2"
         ]
     },
     "execute and store exit code": {
         "prefix": "execc",
+        "description": "execute shell command and store exit code",
         "body": [
             "execute $1 and store exit code in $2"
         ]
     },
     "accept until eof": {
         "prefix": "acc",
+        "description": "accept input until eof",
         "body": [
             "accept $1 until eof"
         ]
