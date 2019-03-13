@@ -16,6 +16,10 @@
             "extensions": [".ldpl",".lsc"],
             "configuration": "./language-configuration.json"
         }],
+        "snippets": [{
+            "language": "ldpl",
+            "path": "./snippets.json"
+        }],
         "grammars": [{
             "language": "ldpl",
             "scopeName": "source.ldpl",

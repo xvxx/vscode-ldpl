@@ -1,0 +1,182 @@
+{
+    "DATA": {
+    "prefix": "data",
+    "body": [
+        "DATA:\n$1\n\nPROCEDURE:\n$2"
+    ]
+    },
+    "PROCEDURE": {
+        "prefix": "pro",
+        "body": [
+            "PROCEDURE:\n$2"
+        ]
+    },
+    "sub-procedure": {
+        "prefix": "sub",
+        "body": [
+            "sub-procedure $1\n\t$2\rend sub-procedure"
+        ]
+    },
+    "call sub-procedure": {
+        "prefix": "call",
+        "body": [
+            "call sub-procedure $1"
+        ]
+    },
+    "store": {
+        "prefix": "st",
+        "body": [
+            "store $1 in $2"
+        ]
+    },
+    "length": {
+        "prefix": "stl",
+        "body": [
+            "store length of $1 in $2"
+        ]
+    },
+    "display": {
+        "prefix": "dis",
+        "body": [
+            "display $1"
+        ]
+    },
+    "display with crlf": {
+        "prefix": "dc",
+        "body": [
+            "display $1 crlf"
+        ]
+    },
+    "while": {
+        "prefix": "while",
+        "body": [
+            "while $1 is $2 do\n\t$3\nrepeat"
+        ]
+    },
+    "if": {
+        "prefix": "if",
+        "body": [
+            "if $1 is $2 then\n\t$3\nend if"
+        ]
+    },
+    "if else": {
+        "prefix": "ife",
+        "body": [
+            "if $1 is $2 then\n\t$3\nelse\n\t$4\nend if"
+        ]
+    },
+    "equal to": {
+        "prefix": "eq",
+        "body": [
+            "equal to"
+        ]
+    },
+    "not equal to": {
+        "prefix": "neq",
+        "body": [
+            "not equal to"
+        ]
+    },
+    "greater than": {
+        "prefix": "gt",
+        "body": [
+            "greater than"
+        ]
+    },
+    "greater than or equal to": {
+        "prefix": "gte",
+        "body": [
+            "greater than or equal to"
+        ]
+    },
+    "less than": {
+        "prefix": "lt",
+        "body": [
+            "less than"
+        ]
+    },
+    "less than or equal to": {
+        "prefix": "lte",
+        "body": [
+            "less than or equal to"
+        ]
+    },
+    "join": {
+        "prefix": "join",
+        "body": [
+            "join $1 and $2 in $3"
+        ]
+    },
+    "add": {
+        "prefix": "add",
+        "body": [
+            "add $1 and $2 in $3"
+        ]
+    },
+    "subtract": {
+        "prefix": "subtract",
+        "body": [
+            "subtract $1 and $2 in $3"
+        ]
+    },
+    "divide": {
+        "prefix": "divide",
+        "body": [
+            "divide $1 and $2 in $3"
+        ]
+    },
+    "multiply": {
+        "prefix": "multiply",
+        "body": [
+            "multiply $1 and $2 in $3"
+        ]
+    },
+    "modulo": {
+        "prefix": "modulo",
+        "body": [
+            "modulo $1 and $2 in $3"
+        ]
+    },
+    "random": {
+        "prefix": "rand",
+        "body": [
+            "store random in $1"
+        ]
+    },
+    "get character": {
+        "prefix": "gc",
+        "body": [
+            "get character at $1 from $2 in $3"
+        ]
+    },
+    "store character": {
+        "prefix": "sc",
+        "body": [
+            "store character $1 in $2"
+        ]
+    },
+    "store character code": {
+        "prefix": "scc",
+        "body": [
+            "store character code of $1 in $2"
+        ]
+    },
+    "execute and store output": {
+        "prefix": "exec",
+        "body": [
+            "execute $1 and store output in $2"
+        ]
+    },
+    "execute and store exit code": {
+        "prefix": "execc",
+        "body": [
+            "execute $1 and store exit code in $2"
+        ]
+    },
+    "accept until eof": {
+        "prefix": "acc",
+        "body": [
+            "accept $1 until eof"
+        ]
+    }
+}
