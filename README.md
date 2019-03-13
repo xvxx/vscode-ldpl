@@ -1,4 +1,4 @@
-![A VSCode Extesnion for theh LDPL Program Language](dinos.JPEG)
+![A VSCode Extension for theh LDPL Program Language](dinos.JPEG)
 
 -----
 
