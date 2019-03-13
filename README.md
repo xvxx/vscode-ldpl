@@ -2,7 +2,6 @@
 
 -----
 
-
 Just syntax highlighting, really. And some snippets.
 
 For [The LDPL Programming Language](https://ldpl.lartu.net/).
