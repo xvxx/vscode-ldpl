@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "LDPL",
+	"patterns": [
+		{
+			"include": "#procedures"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"procedures": {
+			"patterns": [{
+				"name": "entity.name.function.ldpl",
+				"match": "(?<=sub-procedure )(.+)"
+			}]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.ldpl",
+				"match": "(?<=^|[\\s])(PROCEDURE:|DATA:|display|accept|join|store|while|repeat|if|then|else|or|and|of|in|is|not|end|add|subtract|multiply|divide|modulo|abs|call sub-procedure|sub-procedure|get character at|store length of|exit|execute|and store exit code in|return|break|continue|store character|store character code of|store|accept|until eof|store random in|floor|ceil|equal to|greater than|less than)(?=\\s|$)"
+			},
+			{
+				"name": "storage.type.ldpl",
+				"match": "(?<=^|[\\s])(number|text|vector)(?=\\s|$)"
+			}
+		]
+		},
+		"strings": {
+			"name": "string.quoted.double.ldpl",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ldpl",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"match": "(-?\\d\\d*(\\.\\d\\d*)?)",
+					"name": "constant.numeric.double.ldpl"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"begin": "#",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.ldpl"
+						}
+					},
+					"end": "$",
+					"name": "comment.line.ldpl"
+				}
+			]
+		}
+	},
+	"scopeName": "source.ldpl"
+}

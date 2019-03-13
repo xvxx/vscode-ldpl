@@ -1,0 +1,25 @@
+{
+    "name": "ldpl-ext",
+    "displayName": "ldpl-ext",
+    "description": "Support for the LDPL Programming Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ldpl",
+            "aliases": ["LDPL", "ldpl"],
+            "extensions": [".ldpl",".lsc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ldpl",
+            "scopeName": "source.ldpl",
+            "path": "./syntaxes/ldpl.tmLanguage.json"
+        }]
+    }
+}
