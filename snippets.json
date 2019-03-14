@@ -21,7 +21,7 @@
         ]
     },
     "text vector": {
-        "prefix": "sv",
+        "prefix": "tv",
         "description": "text vector",
         "body": [
             "text vector"
