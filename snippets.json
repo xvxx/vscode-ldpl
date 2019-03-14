@@ -20,11 +20,11 @@
             "number vector"
         ]
     },
-    "string vector": {
+    "text vector": {
         "prefix": "sv",
-        "description": "string vector",
+        "description": "text vector",
         "body": [
-            "string vector"
+            "text vector"
         ]
     },
     "lookup": {
