@@ -13,16 +13,30 @@
             "PROCEDURE:\n$2"
         ]
     },
+    "number": {
+        "prefix": "n",
+        "description": "number type",
+        "body": [
+            "number"
+        ]
+    },
+    "text": {
+        "prefix": "t",
+        "description": "text type",
+        "body": [
+            "text"
+        ]
+    },
     "number vector": {
         "prefix": "nv",
-        "description": "number vector",
+        "description": "number vector type",
         "body": [
             "number vector"
         ]
     },
     "text vector": {
         "prefix": "tv",
-        "description": "text vector",
+        "description": "text vector type",
         "body": [
             "text vector"
         ]
