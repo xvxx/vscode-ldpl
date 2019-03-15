@@ -59,105 +59,105 @@
         "prefix": "sub",
         "description": "sub-procedure definition",
         "body": [
-            "sub-procedure $1\n\t$2\rend sub-procedure"
+            "sub-procedure $1\n\t$2\rend sub-procedure\n"
         ]
     },
     "call sub-procedure": {
         "prefix": "call",
         "description": "call sub-procedure",
         "body": [
-            "call sub-procedure $1"
+            "call sub-procedure $1\n"
         ]
     },
     "store": {
         "prefix": "st",
         "description": "store x in v",
         "body": [
-            "store $1 in $2"
+            "store $1 in $2\n"
         ]
     },
     "length": {
         "prefix": "stl",
         "description": "store length of x in v",
         "body": [
-            "store length of $1 in $2"
+            "store length of $1 in $2\n"
         ]
     },
     "display": {
         "prefix": "dis",
         "description": "display",
         "body": [
-            "display $1"
+            "display $1\n"
         ]
     },
     "display with crlf": {
-        "prefix": "dc",
+        "prefix": "d",
         "description": "display x crlf",
         "body": [
-            "display $1 crlf"
+            "display $1 crlf\n"
         ]
     },
     "while": {
         "prefix": "while",
         "description": "while loop",
         "body": [
-            "while $1 is $2 do\n\t$3\nrepeat"
+            "while $1 is $2 do\n\t$3\nrepeat\n"
         ]
     },
     "if": {
         "prefix": "if",
         "description": "if block",
         "body": [
-            "if $1 is $2 then\n\t$3\nend if"
+            "if $1 is $2 then\n\t$3\nend if\n"
         ]
     },
     "if else": {
         "prefix": "ife",
         "description": "if else block",
         "body": [
-            "if $1 is $2 then\n\t$3\nelse\n\t$4\nend if"
+            "if $1 is $2 then\n\t$3\nelse\n\t$4\nend if\n"
         ]
     },
     "equal to": {
         "prefix": "eq",
         "description": "equal to",
         "body": [
-            "equal to"
+            "equal to "
         ]
     },
     "not equal to": {
         "prefix": "neq",
         "description": "not equal to",
         "body": [
-            "not equal to"
+            "not equal to "
         ]
     },
     "greater than": {
         "prefix": "gt",
         "description": "greater than",
         "body": [
-            "greater than"
+            "greater than "
         ]
     },
     "greater than or equal to": {
         "prefix": "gte",
         "description": "greater than or equal to",
         "body": [
-            "greater than or equal to"
+            "greater than or equal to "
         ]
     },
     "less than": {
         "prefix": "lt",
-        "description": "less than",
+        "description": "less than ",
         "body": [
-            "less than"
+            "less than "
         ]
     },
     "less than or equal to": {
         "prefix": "lte",
         "description": "less than or equal to",
         "body": [
-            "less than or equal to"
+            "less than or equal to "
         ]
     },
     "join": {
@@ -171,84 +171,84 @@
         "prefix": "add",
         "description": "add x and y in v",
         "body": [
-            "add $1 and $2 in $3"
+            "add $1 and $2 in $3\n"
         ]
     },
     "subtract": {
         "prefix": "subtract",
         "description": "subtract x and y in v",
         "body": [
-            "subtract $1 and $2 in $3"
+            "subtract $1 and $2 in $3\n"
         ]
     },
     "divide": {
         "prefix": "divide",
         "description": "divide x and y in v",
         "body": [
-            "divide $1 and $2 in $3"
+            "divide $1 and $2 in $3\n"
         ]
     },
     "multiply": {
         "prefix": "multiply",
         "description": "multiply x and y in v",
         "body": [
-            "multiply $1 and $2 in $3"
+            "multiply $1 and $2 in $3\n"
         ]
     },
     "modulo": {
         "prefix": "modulo",
         "description": "modulo x and y in v",
         "body": [
-            "modulo $1 and $2 in $3"
+            "modulo $1 and $2 in $3\n"
         ]
     },
     "random": {
         "prefix": "rand",
         "description": "store random number",
         "body": [
-            "store random in $1"
+            "store random in $1\n"
         ]
     },
     "get character": {
         "prefix": "gc",
         "description": "get character from text",
         "body": [
-            "get character at $1 from $2 in $3"
+            "get character at $1 from $2 in $3\n"
         ]
     },
     "store character": {
         "prefix": "sc",
         "description": "store character from text in var",
         "body": [
-            "store character $1 in $2"
+            "store character $1 in $2\n"
         ]
     },
     "store character code": {
         "prefix": "scc",
         "description": "store character code from text in var",
         "body": [
-            "store character code of $1 in $2"
+            "store character code of $1 in $2\n"
         ]
     },
     "execute and store output": {
         "prefix": "exec",
         "description": "execute shell command and store output in var",
         "body": [
-            "execute $1 and store output in $2"
+            "execute $1 and store output in $2\n"
         ]
     },
     "execute and store exit code": {
         "prefix": "execc",
         "description": "execute shell command and store exit code",
         "body": [
-            "execute $1 and store exit code in $2"
+            "execute $1 and store exit code in $2\n"
         ]
     },
     "accept until eof": {
         "prefix": "acc",
         "description": "accept input until eof",
         "body": [
-            "accept $1 until eof"
+            "accept $1 until eof\n"
         ]
     }
 }
