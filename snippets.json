@@ -251,8 +251,15 @@
             "execute $1 and store exit code in $2\n"
         ]
     },
+    "accept": {
+        "prefix": "ac",
+        "description": "accept",
+        "body": [
+            "accept $1\n"
+        ]
+    }
     "accept until eof": {
-        "prefix": "acc",
+        "prefix": "ace",
         "description": "accept input until eof",
         "body": [
             "accept $1 until eof\n"
