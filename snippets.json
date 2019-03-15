@@ -13,6 +13,13 @@
             "PROCEDURE:\n$2"
         ]
     },
+    "is": {
+        "prefix": "is",
+        "description": "var IS type",
+        "body": [
+            "$1 is $2\n"
+        ]
+    },
     "number": {
         "prefix": "n",
         "description": "number type",
