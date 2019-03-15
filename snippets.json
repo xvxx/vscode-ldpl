@@ -97,6 +97,13 @@
             "display $1 crlf\n"
         ]
     },
+    "crlf": {
+        "prefix": "cr",
+        "description": "crlf",
+        "body": [
+            "crlf"
+        ]
+    },
     "while": {
         "prefix": "while",
         "description": "while loop",
