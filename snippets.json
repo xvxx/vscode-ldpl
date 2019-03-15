@@ -59,7 +59,7 @@
         "prefix": "sub",
         "description": "sub-procedure definition",
         "body": [
-            "sub-procedure $1\n\t$2\rend sub-procedure\n"
+            "sub-procedure $1\n\t$2\nend sub-procedure\n"
         ]
     },
     "call sub-procedure": {
