@@ -257,7 +257,7 @@
         "body": [
             "accept $1\n"
         ]
-    }
+    },
     "accept until eof": {
         "prefix": "ace",
         "description": "accept input until eof",
