@@ -62,6 +62,13 @@
             "sub-procedure $1\n\t$2\nend sub-procedure\n"
         ]
     },
+    "end sub-procedure": {
+        "prefix": "ends",
+        "description": "end sub-procedure",
+        "body": [
+            "end sub-procedure"
+        ]
+    },
     "call sub-procedure": {
         "prefix": "call",
         "description": "call sub-procedure",
@@ -123,6 +130,13 @@
         "description": "if else block",
         "body": [
             "if $1 is $2 then\n\t$3\nelse\n\t$4\nend if\n"
+        ]
+    },
+    "end if": {
+        "prefix": "endif",
+        "description": "end if",
+        "body": [
+            "end if"
         ]
     },
     "equal to": {
