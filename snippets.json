@@ -300,6 +300,14 @@
             "write $1 to file $2\n"
         ]
     },
+    "append to file": {
+        "prefix": "append",
+        "description": "append to file",
+        "body": [
+            "append $1 to file $2\n"
+        ]
+    },
+ 
     "wait x milliseconds": {
         "prefix": "wait",
         "description": "wait x milliseconds",
