@@ -299,5 +299,12 @@
         "body": [
             "write $1 to file $2\n"
         ]
+    },
+    "wait x milliseconds": {
+        "prefix": "wait",
+        "description": "wait x milliseconds",
+        "body": [
+            "wait $1 milliseconds\n"
+        ]
     }
 }
