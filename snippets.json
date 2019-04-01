@@ -285,5 +285,19 @@
         "body": [
             "accept $1 until eof\n"
         ]
+    },
+    "load file": {
+        "prefix": "load",
+        "description": "load file",
+        "body": [
+            "load file $1 in $2\n"
+        ]
+    },
+    "write to file": {
+        "prefix": "write",
+        "description": "write to file",
+        "body": [
+            "write $1 to file $2\n"
+        ]
     }
 }
