@@ -73,6 +73,13 @@
         "prefix": "call",
         "description": "call sub-procedure",
         "body": [
+            "call $1\n"
+        ]
+    },
+    "call sub-procedure (old)": {
+        "prefix": "cs",
+        "description": "call sub-procedure (old)",
+        "body": [
             "call sub-procedure $1\n"
         ]
     },
