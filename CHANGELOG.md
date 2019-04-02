@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.3.3]
+- Fixed math snippets (sub, mul, div, mod)
+
 ## [v0.3.2]
 - Killed superfluous trailing \n in many snippets.
 

@@ -204,30 +204,30 @@
     },
     "subtract": {
         "prefix": "subtract",
-        "description": "subtract x and y in v",
+        "description": "subtract x from y in v",
         "body": [
-            "subtract $1 and $2 in $3"
+            "subtract $1 from $2 in $3"
         ]
     },
     "divide": {
         "prefix": "divide",
-        "description": "divide x and y in v",
+        "description": "divide x by y in v",
         "body": [
-            "divide $1 and $2 in $3"
+            "divide $1 by $2 in $3"
         ]
     },
     "multiply": {
         "prefix": "multiply",
-        "description": "multiply x and y in v",
+        "description": "multiply x by y in v",
         "body": [
-            "multiply $1 and $2 in $3"
+            "multiply $1 by $2 in $3"
         ]
     },
     "modulo": {
         "prefix": "modulo",
-        "description": "modulo x and y in v",
+        "description": "modulo x by y in v",
         "body": [
-            "modulo $1 and $2 in $3"
+            "modulo $1 by $2 in $3"
         ]
     },
     "random": {
