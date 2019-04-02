@@ -17,7 +17,7 @@
         "prefix": "is",
         "description": "var IS type",
         "body": [
-            "$1 is $2\n"
+            "$1 is $2"
         ]
     },
     "number": {
@@ -59,7 +59,7 @@
         "prefix": "sub",
         "description": "sub-procedure definition",
         "body": [
-            "sub-procedure $1\n\t$2\nend sub-procedure\n"
+            "sub-procedure $1\n\t$2\nend sub-procedure"
         ]
     },
     "end sub-procedure": {
@@ -73,42 +73,42 @@
         "prefix": "call",
         "description": "call sub-procedure",
         "body": [
-            "call $1\n"
+            "call $1"
         ]
     },
     "call sub-procedure (old)": {
         "prefix": "cs",
         "description": "call sub-procedure (old)",
         "body": [
-            "call sub-procedure $1\n"
+            "call sub-procedure $1"
         ]
     },
     "store": {
         "prefix": "st",
         "description": "store x in v",
         "body": [
-            "store $1 in $2\n"
+            "store $1 in $2"
         ]
     },
     "length": {
         "prefix": "stl",
         "description": "store length of x in v",
         "body": [
-            "store length of $1 in $2\n"
+            "store length of $1 in $2"
         ]
     },
     "display": {
         "prefix": "dis",
         "description": "display",
         "body": [
-            "display $1\n"
+            "display $1"
         ]
     },
     "display with crlf": {
         "prefix": "d",
         "description": "display x crlf",
         "body": [
-            "display $1 crlf\n"
+            "display $1 crlf"
         ]
     },
     "crlf": {
@@ -122,21 +122,21 @@
         "prefix": "while",
         "description": "while loop",
         "body": [
-            "while $1 is $2 do\n\t$3\nrepeat\n"
+            "while $1 is $2 do\n\t$3\nrepeat"
         ]
     },
     "if": {
         "prefix": "if",
         "description": "if block",
         "body": [
-            "if $1 is $2 then\n\t$3\nend if\n"
+            "if $1 is $2 then\n\t$3\nend if"
         ]
     },
     "if else": {
         "prefix": "ife",
         "description": "if else block",
         "body": [
-            "if $1 is $2 then\n\t$3\nelse\n\t$4\nend if\n"
+            "if $1 is $2 then\n\t$3\nelse\n\t$4\nend if"
         ]
     },
     "end if": {
@@ -199,112 +199,112 @@
         "prefix": "add",
         "description": "add x and y in v",
         "body": [
-            "add $1 and $2 in $3\n"
+            "add $1 and $2 in $3"
         ]
     },
     "subtract": {
         "prefix": "subtract",
         "description": "subtract x and y in v",
         "body": [
-            "subtract $1 and $2 in $3\n"
+            "subtract $1 and $2 in $3"
         ]
     },
     "divide": {
         "prefix": "divide",
         "description": "divide x and y in v",
         "body": [
-            "divide $1 and $2 in $3\n"
+            "divide $1 and $2 in $3"
         ]
     },
     "multiply": {
         "prefix": "multiply",
         "description": "multiply x and y in v",
         "body": [
-            "multiply $1 and $2 in $3\n"
+            "multiply $1 and $2 in $3"
         ]
     },
     "modulo": {
         "prefix": "modulo",
         "description": "modulo x and y in v",
         "body": [
-            "modulo $1 and $2 in $3\n"
+            "modulo $1 and $2 in $3"
         ]
     },
     "random": {
         "prefix": "rand",
         "description": "store random number",
         "body": [
-            "store random in $1\n"
+            "store random in $1"
         ]
     },
     "get character": {
         "prefix": "gc",
         "description": "get character from text",
         "body": [
-            "get character at $1 from $2 in $3\n"
+            "get character at $1 from $2 in $3"
         ]
     },
     "store character": {
         "prefix": "sc",
         "description": "store character from text in var",
         "body": [
-            "store character $1 in $2\n"
+            "store character $1 in $2"
         ]
     },
     "store character code": {
         "prefix": "scc",
         "description": "store character code from text in var",
         "body": [
-            "store character code of $1 in $2\n"
+            "store character code of $1 in $2"
         ]
     },
     "execute and store output": {
         "prefix": "exec",
         "description": "execute shell command and store output in var",
         "body": [
-            "execute $1 and store output in $2\n"
+            "execute $1 and store output in $2"
         ]
     },
     "execute and store exit code": {
         "prefix": "execc",
         "description": "execute shell command and store exit code",
         "body": [
-            "execute $1 and store exit code in $2\n"
+            "execute $1 and store exit code in $2"
         ]
     },
     "accept": {
         "prefix": "ac",
         "description": "accept",
         "body": [
-            "accept $1\n"
+            "accept $1"
         ]
     },
     "accept until eof": {
         "prefix": "ace",
         "description": "accept input until eof",
         "body": [
-            "accept $1 until eof\n"
+            "accept $1 until eof"
         ]
     },
     "load file": {
         "prefix": "load",
         "description": "load file",
         "body": [
-            "load file $1 in $2\n"
+            "load file $1 in $2"
         ]
     },
     "write to file": {
         "prefix": "write",
         "description": "write to file",
         "body": [
-            "write $1 to file $2\n"
+            "write $1 to file $2"
         ]
     },
     "append to file": {
         "prefix": "append",
         "description": "append to file",
         "body": [
-            "append $1 to file $2\n"
+            "append $1 to file $2"
         ]
     },
  
@@ -312,7 +312,7 @@
         "prefix": "wait",
         "description": "wait x milliseconds",
         "body": [
-            "wait $1 milliseconds\n"
+            "wait $1 milliseconds"
         ]
     }
 }
