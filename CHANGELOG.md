@@ -2,6 +2,8 @@
 
 ## [v0.3.3]
 - Fixed math snippets (sub, mul, div, mod)
+- Added `incr` snippet: ADD 1 AND x IN x
+- Added `decr` snippet: SUB 1 FROM x in X
 
 ## [v0.3.2]
 - Killed superfluous trailing \n in many snippets.

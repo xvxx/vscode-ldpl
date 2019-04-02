@@ -202,6 +202,20 @@
             "add $1 and $2 in $3"
         ]
     },
+    "incr": {
+        "prefix": "incr",
+        "description": "increment variable by 1",
+        "body": [
+            "add 1 and $1 in $1"
+        ]
+    },
+    "decr": {
+        "prefix": "decr",
+        "description": "decrement variable by 1",
+        "body": [
+            "subtract 1 from $1 in $1"
+        ]
+    },
     "subtract": {
         "prefix": "subtract",
         "description": "subtract x from y in v",
