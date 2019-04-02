@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.3.2]
+- Killed superfluous trailing \n in many snippets.
+
 ## [v0.3.1]
 - Added `append` snippet: APPEND x TO FILE y
 
