@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.3.4]
+- Added `by` highlighting - @lartu
+
 ## [v0.3.3]
 - Fixed math snippets (sub, mul, div, mod)
 - Added `incr` snippet: ADD 1 AND x IN x
