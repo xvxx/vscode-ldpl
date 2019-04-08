@@ -48,6 +48,13 @@
             "text vector"
         ]
     },
+    "external": {
+        "prefix": "ex",
+        "description": "external",
+        "body": [
+            "external"
+        ]
+    },
     "lookup": {
         "prefix": "at",
         "description": "vector element lookup",
