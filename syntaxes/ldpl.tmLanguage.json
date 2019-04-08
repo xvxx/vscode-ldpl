@@ -28,7 +28,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ldpl",
-				"match": "(?<=^|[\\s])((?i)procedure:|data:|display|accept|join|while|do|repeat|from|if|then|else|or|and|in|by|is|not|end|add|subtract|multiply|divide|modulo|abs|call external|call sub-procedure|call|sub-procedure|get character at|store length of|exit|execute|and store exit code in|return|break|continue|store character|store character code of|accept|until eof|store random in|floor|ceil|equal to|greater than|less than|store|load file|write|append|to file|wait|milliseconds)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)procedure:|data:|display|accept|join|while|do|repeat|from|if|then|else|or|and|in|by|is|not|end|add|subtract|multiply|divide|modulo|abs|call sub-procedure|call|external|sub-procedure|get character at|store length of|exit|execute|and store exit code in|return|break|continue|store character|store character code of|accept|until eof|store random in|floor|ceil|equal to|greater than|less than|store|load file|write|append|to file|wait|milliseconds)(?=\\s|$)"
 			},
 			{
 				"name": "storage.type.ldpl",
