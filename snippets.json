@@ -69,6 +69,14 @@
             "end sub-procedure"
         ]
     },
+    "call external": {
+        "prefix": "ce",
+        "description": "call external",
+        "body": [
+            "call external $1"
+        ]
+    },
+
     "call sub-procedure": {
         "prefix": "call",
         "description": "call sub-procedure",
