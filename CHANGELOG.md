@@ -1,10 +1,14 @@
 # Changes
 
+## [v0.4.0]
+- More colors.
+- Added `goto` & `label` highlighting
+- Added `go` & `la` snippets for `GOTO x` and `LABEL x`
+
 ## [v0.3.7]
 - Added `external` highlighting
 - Added `ce` snippet: CALL EXTERNAL x
 - Added `ex` snippet: EXTERNAL
-
 
 ## [v0.3.4]
 - Added `by` highlighting - @lartu
