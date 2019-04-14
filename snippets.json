@@ -343,5 +343,21 @@
         "body": [
             "wait $1 milliseconds"
         ]
+    },
+
+    "goto": {
+        "prefix": "go",
+        "description": "goto x",
+        "body": [
+            "goto $1"
+        ]
+    },
+
+    "label": {
+        "prefix": "la",
+        "description": "set label for goto",
+        "body": [
+            "label $1"
+        ]
     }
 }

@@ -23,7 +23,7 @@
 			},
 			{
 				"name": "entity.name.function.ldpl",
-				"match": "(?<=^|[\\s])((?i)abs|accept|add|append|call sub-procedure|call external|call|ceil|display|divide|execute|exit|floor|get|join|modulo|multiply|store|subtract|wait|write)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)abs|accept|add|append|call sub-procedure|call external|call|ceil|display|divide|execute|exit|floor|get|goto|join|label|modulo|multiply|store|subtract|wait|write)(?=\\s|$)"
 			},
 			{
 				"name": "storage.type.ldpl",
@@ -31,11 +31,11 @@
 			},
 			{
 				"name": "storage.modifier.ldpl",
-				"match": "(?<=^|\\s)((?i)and|by|from|is|in|not|or)(?=\\s|$)"
+				"match": "(?<=^|\\s)((?i)and|by|from|is|in|not|or|to)(?=\\s|$)"
 			},
 			{
 				"name": "constant.language.boolean.ldpl",
-				"match": "(?<=^|\\s)((?i)character|crlf|length of|random)(?=\\s|$)"
+				"match": "(?<=^|\\s)((?i)character|crlf|file|length of|milliseconds|random)(?=\\s|$)"
 			}
 		]
 		},
