@@ -1,6 +1,6 @@
 # Changes
 
-## [v0.4.0]
+## [v0.5.0]
 - More colors.
 - Added `goto` & `label` highlighting
 - Added `go` & `la` snippets for `GOTO x` and `LABEL x`
