@@ -3,9 +3,6 @@
 	"name": "LDPL",
 	"patterns": [
 		{
-			"include": "#procedures"
-		},
-		{
 			"include": "#keywords"
 		},
 		{
@@ -19,24 +16,26 @@
 		}
 	],
 	"repository": {
-		"procedures": {
-			"patterns": [{
-				"name": "entity.name.function.ldpl",
-				"match": "(?<=sub-procedure|SUB-PROCEDURE) (.+)"
-			}]
-		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ldpl",
-				"match": "(?<=^|[\\s])((?i)procedure:|data:|call sub-procedure|store character code of|store character|get character at|store length of|and store output in|until eof|store random in|equal to|greater than|less than|and store exit code in|load file|to file|end sub-procedure|abs|accept|add|and|append|break|by|call|ceil|continue|display|divide|do|else|end|execute|exit|external|floor|from|if|in|is|join|milliseconds|modulo|multiply|not|or|repeat|return|store|sub-procedure|subtract|then|wait|while|write)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)procedure:|data:|end if|end sub-procedure|break|continue|do|else|if|repeat|return|sub-procedure|then|while)(?=\\s|$)"
+			},
+			{
+				"name": "entity.name.function.ldpl",
+				"match": "(?<=^|[\\s])((?i)abs|accept|add|append|call sub-procedure|call external|call|ceil|display|divide|execute|exit|floor|get|join|modulo|multiply|store|subtract|wait|write)(?=\\s|$)"
 			},
 			{
 				"name": "storage.type.ldpl",
 				"match": "(?<=^|[\\s])((?i)number|text|vector)(?=\\s|$)"
 			},
 			{
+				"name": "storage.modifier.ldpl",
+				"match": "(?<=^|\\s)((?i)and|by|from|is|in|not|or)(?=\\s|$)"
+			},
+			{
 				"name": "constant.language.boolean.ldpl",
-				"match": "(?<=^|\\s)(?i)crlf(?=\\s|$)"
+				"match": "(?<=^|\\s)((?i)character|crlf|length of|random)(?=\\s|$)"
 			}
 		]
 		},
