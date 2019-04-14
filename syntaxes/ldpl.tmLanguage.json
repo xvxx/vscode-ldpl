@@ -53,7 +53,7 @@
 		"numbers": {
 			"patterns": [
 				{
-					"match": "(-?\\d\\d*(\\.\\d\\d*)?)",
+					"match": "(?<=^|[\\s])(-?\\d\\d*(\\.\\d\\d*)?)(?=\\s|$)",
 					"name": "constant.numeric.double.ldpl"
 				}
 			]
