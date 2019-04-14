@@ -19,7 +19,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ldpl",
-				"match": "(?<=^|[\\s])((?i)procedure:|data:|end if|end sub-procedure|break|continue|do|else|if|repeat|return|sub-procedure|then|while)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)procedure:|data:|end if|end sub-procedure|break|continue|do|else|external|if|repeat|return|sub-procedure|then|while)(?=\\s|$)"
 			},
 			{
 				"name": "entity.name.function.ldpl",
@@ -34,8 +34,8 @@
 				"match": "(?<=^|\\s)((?i)and|by|from|is|in|not|or|to)(?=\\s|$)"
 			},
 			{
-				"name": "constant.language.boolean.ldpl",
-				"match": "(?<=^|\\s)((?i)character|crlf|file|length of|milliseconds|random)(?=\\s|$)"
+				"name": "constant.language.ldpl",
+				"match": "(?<=^|\\s)((?i)character at|character|crlf|greater than|equal to|less than|file|length of|milliseconds|random)(?=\\s|$)"
 			}
 		]
 		},
