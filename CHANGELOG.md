@@ -2,6 +2,7 @@
 
 ## [v0.6.0]
 - Added `store quote in x` highlighting. 
+- Added `sq` snippet: STORE QUOTE IN x
 
 ## [v0.5.0]
 - More colors.

@@ -105,6 +105,13 @@
             "store $1 in $2"
         ]
     },
+    "store quote": {
+        "prefix": "sq",
+        "description": "store quote in x",
+        "body": [
+            "store quote in $1\nend quote\n"
+        ]
+    },
     "length": {
         "prefix": "stl",
         "description": "store length of x in v",
