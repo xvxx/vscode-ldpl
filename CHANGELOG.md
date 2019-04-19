@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.6.0]
+- Added `store quote in x` highlighting. 
+
 ## [v0.5.0]
 - More colors.
 - Added `goto` & `label` highlighting

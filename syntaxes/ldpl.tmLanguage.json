@@ -3,10 +3,10 @@
 	"name": "LDPL",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#strings"
 		},
 		{
-			"include": "#strings"
+			"include": "#keywords"
 		},
 		{
 			"include": "#numbers"
@@ -36,17 +36,52 @@
 			{
 				"name": "constant.language.ldpl",
 				"match": "(?<=^|\\s)((?i)character at|character|crlf|greater than|equal to|less than|file|length of|milliseconds|random)(?=\\s|$)"
+			},
+			{
+				"name": "variable.name.ldpl",
+				"match": "\\w+"
 			}
 		]
 		},
 		"strings": {
-			"name": "string.quoted.double.ldpl",
-			"begin": "\"",
-			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.ldpl",
-					"match": "\\\\."
+					"name": "string.quoted.double.ldpl",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.ldpl",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"begin": "^\\s*((?i)(store quote) (in) (\\S+))\\s*$",
+					"beginCaptures": {
+						"2": {
+							"name": "entity.name.function.ldpl"
+						},
+						"3": {
+							"name": "storage.modifier.ldpl"
+						},
+						"4": {
+							"name": "variable.parameter.ldpl"
+						}
+					},
+					"end": "^((?i)\\s*end quote\\s*)$",
+					"endCaptures": {
+						"0": {
+							"name": "entity.name.function.ldpl"
+						}
+					},
+					"patterns": [
+						{
+							"name": "constant.character.escape.ldpl",
+							"match": "\\\\."
+						}
+					],
+					"name": "string.quoted.block.ldpl"
 				}
 			]
 		},
