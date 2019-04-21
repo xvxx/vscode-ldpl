@@ -19,27 +19,27 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ldpl",
-				"match": "(?<=^|[\\s])((?i)procedure:|data:|end if|end sub-procedure|break|continue|do|else|external|if|repeat|return|sub-procedure|then|while)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)procedure:|data:|end if|end sub-procedure|greater than|equal to|less than|break|continue|do|else|external|if|is|not|or|repeat|return|sub-procedure|then|while)(?=\\s|$)"
 			},
 			{
 				"name": "entity.name.function.ldpl",
-				"match": "(?<=^|[\\s])((?i)abs|accept|add|append|call sub-procedure|call external|call|ceil|display|divide|execute|exit|floor|get|goto|join|label|modulo|multiply|store|subtract|wait|write)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)abs|accept|add|append|call sub-procedure|call external|call|ceil|display|divide|execute|exit|file|floor|get character at|get character|goto|join|label|length of|modulo|multiply|store|subtract|wait|write)(?=\\s|$)"
 			},
 			{
 				"name": "storage.type.ldpl",
 				"match": "(?<=^|[\\s])((?i)number|text|vector)(?=\\s|$)"
 			},
 			{
-				"name": "storage.modifier.ldpl",
-				"match": "(?<=^|\\s)((?i)and|by|from|is|in|not|or|to)(?=\\s|$)"
+				"name": "entity.name.function.ldpl",
+				"match": "(?<=^|\\s)((?i)and|by|from|in|to)(?=\\s|$)"
 			},
 			{
-				"name": "constant.language.ldpl",
-				"match": "(?<=^|\\s)((?i)character at|character|crlf|greater than|equal to|less than|file|length of|milliseconds|random)(?=\\s|$)"
+				"name": "storage.modifier.ldpl",
+				"match": "(?<=^|\\s)((?i)crlf|milliseconds|random)(?=\\s|$)"
 			},
 			{
 				"name": "variable.name.ldpl",
-				"match": "\\w+"
+				"match": "[A-Za-z]\\w*"
 			}
 		]
 		},
@@ -57,15 +57,12 @@
 					]
 				},
 				{
-					"begin": "^\\s*((?i)(store quote) (in) (\\S+))\\s*$",
+					"begin": "^\\s*((?i)(store quote in) (\\S+))\\s*$",
 					"beginCaptures": {
 						"2": {
 							"name": "entity.name.function.ldpl"
 						},
 						"3": {
-							"name": "storage.modifier.ldpl"
-						},
-						"4": {
 							"name": "variable.parameter.ldpl"
 						}
 					},
