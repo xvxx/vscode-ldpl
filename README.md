@@ -4,11 +4,11 @@
 
 Just syntax highlighting, really. And some snippets.
 
-Developed for [The LDPL Programming Language](https://ldpl.lartu.net/).
+Developed for [The LDPL Programming Language](https://www.ldpl-lang.org/).
 
 ![Extension Screenshot](screenie.JPEG)
 
-We strive for utmost compatibility with [LDPL 19 Standard Revision 4](https://ldpl.lartu.net/reference/) and regret any errors. Kindly report
+We strive for utmost compatibility with [LDPL 19 Standard Revision 4](https://ldpl.gitbook.io/reference/) and regret any errors. Kindly report
 issues you encouter at this address:
 
 https://github.com/dvkt/vscode-ldpl/issues
