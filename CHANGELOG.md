@@ -1,10 +1,13 @@
 # Changes
 
+## [v0.6.2]
+- Bugfixes
+
 ## [v0.6.1]
 - Simpler syntax highlighting
 
 ## [v0.6.0]
-- Added `store quote in x` highlighting. 
+- Added `store quote in x` highlighting.
 - Added `sq` snippet: STORE QUOTE IN x
 
 ## [v0.5.0]
