@@ -1,5 +1,11 @@
 # Changes
 
+## [v0.6.4]
+- Fix number vector highlighting (`v:0`)
+
+## [v0.6.3]
+- Bugfixes
+
 ## [v0.6.2]
 - Bugfixes
 
