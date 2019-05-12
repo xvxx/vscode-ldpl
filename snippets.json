@@ -228,14 +228,14 @@
         "prefix": "incr",
         "description": "increment variable by 1",
         "body": [
-            "add 1 and $1 in $1"
+            "incr $1"
         ]
     },
     "decr": {
         "prefix": "decr",
         "description": "decrement variable by 1",
         "body": [
-            "subtract 1 from $1 in $1"
+            "decr $1"
         ]
     },
     "subtract": {

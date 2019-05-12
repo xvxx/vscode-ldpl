@@ -1,5 +1,9 @@
 # Changes
 
+## [v0.6.6]
+- Add `incr` and `decr` statements.
+- Fix `store output` highlighting.
+
 ## [v0.6.5]
 - Add `store character code of` highlighting.
 - Add `solve` highlighting.
