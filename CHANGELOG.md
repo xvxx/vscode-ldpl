@@ -2,6 +2,7 @@
 
 ## [v0.6.5]
 - Add `store character code of` highlighting.
+- Fix `random` highlighting.
 
 ## [v0.6.4]
 - Fix number vector highlighting (`v:0`)
