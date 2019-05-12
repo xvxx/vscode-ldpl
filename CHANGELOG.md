@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.6.7]
+- Fix `exit code` highlighting.
+
 ## [v0.6.6]
 - Add `incr` and `decr` statements.
 - Fix `store output` highlighting.
