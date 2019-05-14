@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.7.0]
+- Add `SPLIT` highlighting.
+
 ## [v0.6.7]
 - Fix `exit code` highlighting.
 
