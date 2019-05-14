@@ -224,6 +224,13 @@
             "split $1 by $2 in $3"
         ]
     },
+    "replace": {
+        "prefix": "replace",
+        "description": "replace x from y with z in v",
+        "body": [
+            "replace $1 from $2 with $3 in $4"
+        ]
+    },
     "add": {
         "prefix": "add",
         "description": "add x and y in v",

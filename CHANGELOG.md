@@ -1,6 +1,7 @@
 # Changes
 
 ## [v0.7.0]
+- Add `replace` highlighting & snippet.
 - Add `split` highlighting & splippet.
 
 ## [v0.6.7]
