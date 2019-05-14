@@ -217,6 +217,13 @@
             "join $1 and $2 in $3"
         ]
     },
+    "split": {
+        "prefix": "split",
+        "description": "split x by y in v",
+        "body": [
+            "split $1 by $2 in $3"
+        ]
+    },
     "add": {
         "prefix": "add",
         "description": "add x and y in v",

@@ -1,7 +1,7 @@
 # Changes
 
 ## [v0.7.0]
-- Add `SPLIT` highlighting.
+- Add `split` highlighting & splippet.
 
 ## [v0.6.7]
 - Fix `exit code` highlighting.
