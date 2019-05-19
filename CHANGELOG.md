@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.8.1]
+- Fix `replace` highlighting
+
 ## [v0.8.0]
 - Add `replace` highlighting & snippet.
 - Add `split` highlighting & splippet.
