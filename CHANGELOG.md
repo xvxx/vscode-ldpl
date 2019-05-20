@@ -1,9 +1,13 @@
 # Changes
 
 ## [v0.9.0]
+- Highlighting: `get index of`
 - Snippet: `get index of`
+- Highlighting: `count`
 - Snippet: `count`
+- Highlighting: `trim`
 - Snippet: `trim`
+- Highlighting: `substring`
 - Snippet: `substring`
 
 ## [v0.8.1]
