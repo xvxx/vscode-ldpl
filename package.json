@@ -2,7 +2,7 @@
     "name": "vscode-ldpl",
     "displayName": "vscode-ldpl",
     "description": "Support for the LDPL Programming Language",
-    "version": "0.8.1",
+    "version": "0.9.0",
     "publisher": "dvkt",
     "repository": "https://github.com/dvkt/vscode-ldpl",
     "icon": "icon.png",
