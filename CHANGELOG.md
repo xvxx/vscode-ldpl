@@ -1,5 +1,11 @@
 # Changes
 
+## [v0.9.0]
+- Snippet: `get index of`
+- Snippet: `count`
+- Snippet: `trim`
+- Snippet: `substring`
+
 ## [v0.8.1]
 - Fix `replace` highlighting
 

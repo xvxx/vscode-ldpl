@@ -217,11 +217,32 @@
             "join $1 and $2 in $3"
         ]
     },
+    "substring": {
+        "prefix": "subs",
+        "description": "substring s from x length y in z",
+        "body": [
+            "substring $1 from $2 length $3 in $4"
+        ]
+    },   
+    "count": {
+        "prefix": "count",
+        "description": "count x from y in n",
+        "body": [
+            "count $1 from $2 in $3"
+        ]
+    },    
     "split": {
         "prefix": "split",
         "description": "split x by y in v",
         "body": [
             "split $1 by $2 in $3"
+        ]
+    },
+    "trim": {
+        "prefix": "trim",
+        "description": "trim x in y",
+        "body": [
+            "trim $1 in $2"
         ]
     },
     "replace": {
@@ -292,6 +313,13 @@
         "description": "get character from text",
         "body": [
             "get character at $1 from $2 in $3"
+        ]
+    },
+    "get index": {
+        "prefix": "gi",
+        "description": "get index of",
+        "body": [
+            "get index of $1 from $2 in $3"
         ]
     },
     "store character": {
