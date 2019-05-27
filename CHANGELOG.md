@@ -1,6 +1,7 @@
 # Changes
 
 ## [v0.10.0]
+- Highlighting & snippet: `store indices of - in`
 - Highlighting & snippet: `store index count of - in`
 - Highlighting & snippet: `copy - to`
 - Highlighting & snippet: `clear`

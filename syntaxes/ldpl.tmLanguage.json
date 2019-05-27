@@ -23,7 +23,7 @@
 			},
 			{
 				"name": "entity.name.function.ldpl",
-				"match": "(?<=^|[\\s])((?i)abs|accept|add|append|call sub-procedure|call external|call|ceil|clear|copy|count|decr|display|divide|execute|exit code|exit|file|floor|get character at|incr|replace|split|store character code of|store character|store output|store index count of|get index of|goto|join|label|length of|length|load file|milliseconds|modulo|multiply|random|store|solve|substring|subtract|trim|wait|write|with)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)abs|accept|add|append|call sub-procedure|call external|call|ceil|clear|copy|count|decr|display|divide|execute|exit code|exit|file|floor|get character at|incr|replace|split|store character code of|store character|store output|store index count of|store indices of|get index of|goto|join|label|length of|length|load file|milliseconds|modulo|multiply|random|store|solve|substring|subtract|trim|wait|write|with)(?=\\s|$)"
 			},
 			{
 				"name": "storage.type.ldpl",
