@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.10.0]
+- Highlighting: `clear`
+
 ## [v0.9.0]
 - Highlighting: `get index of`
 - Snippet: `get index of`
