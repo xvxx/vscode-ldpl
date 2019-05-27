@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.10.1]
+- Highlighting `accept until eof`
+
 ## [v0.10.0]
 - Highlighting & snippet: `store indices of - in`
 - Highlighting & snippet: `store index count of - in`
