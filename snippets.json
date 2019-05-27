@@ -394,12 +394,18 @@
         ]
     },
 
-
     "clear": {
         "prefix": "cl",
         "description": "clear x",
         "body": [
             "clear $1"
+        ]
+    },
+    "copy": {
+        "prefix": "co",
+        "description": "copy x to y",
+        "body": [
+            "copy $1 to $y"
         ]
     },
 
