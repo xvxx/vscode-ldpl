@@ -239,7 +239,7 @@
         ]
     },   
     "count": {
-        "prefix": "count",
+        "prefix": "cn",
         "description": "count x from y in n",
         "body": [
             "count $1 from $2 in $3"
