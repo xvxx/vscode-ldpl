@@ -394,6 +394,15 @@
         ]
     },
 
+
+    "clear": {
+        "prefix": "cl",
+        "description": "clear x",
+        "body": [
+            "clear $1"
+        ]
+    },
+
     "goto": {
         "prefix": "go",
         "description": "goto x",

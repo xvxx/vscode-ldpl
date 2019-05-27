@@ -2,6 +2,7 @@
 
 ## [v0.10.0]
 - Highlighting: `clear`
+- Snippet: `clear`
 
 ## [v0.9.0]
 - Highlighting: `get index of`
