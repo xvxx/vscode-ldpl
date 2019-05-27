@@ -112,6 +112,13 @@
             "store quote in $1\nend quote\n"
         ]
     },
+    "store index count of": {
+        "prefix": "sic",
+        "description": "store index count of x in y",
+        "body": [
+            "store index count of $1 in $2"
+        ]
+    },
     "length": {
         "prefix": "stl",
         "description": "store length of x in v",
