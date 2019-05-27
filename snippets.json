@@ -419,7 +419,7 @@
         "prefix": "co",
         "description": "copy x to y",
         "body": [
-            "copy $1 to $y"
+            "copy $1 to $2"
         ]
     },
 
