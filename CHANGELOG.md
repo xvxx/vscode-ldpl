@@ -3,6 +3,9 @@
 ## [v0.11.0]
 - Snippets: `number map` and `text map` (`nm` & `tm`)
 - Highlighting: `map`
+- Highlighting: `list`
+- Highlighting: `delete last element`
+- Highlighting: `push`
 
 ## [v0.10.1]
 - Highlighting: `accept until eof`
