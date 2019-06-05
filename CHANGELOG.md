@@ -1,10 +1,11 @@
 # Changes
 
 ## [v0.11.0]
-- Added `number map` and `text map` snippets (`nm` & `tm`)
+- Snippets: `number map` and `text map` (`nm` & `tm`)
+- Highlighting: `map`
 
 ## [v0.10.1]
-- Highlighting `accept until eof`
+- Highlighting: `accept until eof`
 
 ## [v0.10.0]
 - Highlighting & snippet: `store indices of - in`

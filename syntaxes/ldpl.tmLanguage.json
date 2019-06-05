@@ -27,7 +27,7 @@
 			},
 			{
 				"name": "storage.type.ldpl",
-				"match": "(?<=^|[\\s])((?i)number|text|vector)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)number|text|vector|map)(?=\\s|$)"
 			},
 			{
 				"name": "entity.name.function.ldpl",
