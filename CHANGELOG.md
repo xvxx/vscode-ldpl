@@ -2,6 +2,8 @@
 
 ## [v0.11.0]
 - Snippets: `number map` and `text map` (`nm` & `tm`)
+- Snippets: `number list` and `text list` (`nl` & `tl`)
+- Snippets: `delete last element of` and `push` (`dle` & `pu`)
 - Highlighting: `map`
 - Highlighting: `list`
 - Highlighting: `delete last element`

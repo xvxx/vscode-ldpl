@@ -62,6 +62,20 @@
             "text map"
         ]
     },
+    "number list": {
+        "prefix": "nl",
+        "description": "number list type",
+        "body": [
+            "number list"
+        ]
+    },
+    "text list": {
+        "prefix": "tl",
+        "description": "text list type",
+        "body": [
+            "text list"
+        ]
+    },
     "external": {
         "prefix": "ex",
         "description": "external",
@@ -434,6 +448,20 @@
         "description": "copy x to y",
         "body": [
             "copy $1 to $2"
+        ]
+    },
+    "delete last element of": {
+        "prefix": "dle",
+        "description": "delete last element of x",
+        "body": [
+            "delete last element of $1"
+        ]
+    },
+    "push": {
+        "prefix": "pu",
+        "description": "push x to y",
+        "body": [
+            "push $1 to $2"
         ]
     },
 
