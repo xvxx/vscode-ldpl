@@ -48,6 +48,20 @@
             "text vector"
         ]
     },
+    "number map": {
+        "prefix": "nm",
+        "description": "number map type",
+        "body": [
+            "number map"
+        ]
+    },
+    "text map": {
+        "prefix": "tm",
+        "description": "text map type",
+        "body": [
+            "text map"
+        ]
+    },
     "external": {
         "prefix": "ex",
         "description": "external",

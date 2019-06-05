@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.11.0]
+- Added `number map` and `text map` snippets (`nm` & `tm`)
+
 ## [v0.10.1]
 - Highlighting `accept until eof`
 
