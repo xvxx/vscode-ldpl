@@ -1,6 +1,6 @@
 ![The LDPL VSC Highlight Extension](images/Logo.png)
 
-The **LDPL VSC Highlight Extension** is a [Visual Studio Code](https://code.visualstudio.com)
+The **LDPL VSC Highlight Extension** is the official [Visual Studio Code](https://code.visualstudio.com)
 syntax highlighting extesion for the [**LDPL**](https://www.github.com/lartu/ldpl) programming
 language.
 
