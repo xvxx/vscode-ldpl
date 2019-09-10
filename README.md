@@ -1,19 +1,21 @@
-![A VSCode Extension for the LDPL Program Language](dinos.JPEG)
+![The LDPL VSC Highlight Extension](images/Logo.png)
 
------
-
-Just syntax highlighting, really. And some snippets.
-
-Developed for [The LDPL Programming Language](https://www.ldpl-lang.org/).
+The **LDPL VSC Highlight Extension** is a [Visual Studio Code](https://code.visualstudio.com)
+syntax highlighting extesion for the [**LDPL**](https://www.github.com/lartu/ldpl) programming
+language.
 
 ![Extension Screenshot](screenie.JPEG)
 
-We strive for utmost compatibility with [LDPL 19 Standard Revision 4](https://ldpl.gitbook.io/reference/) and regret any errors. Kindly report
-issues you encouter at this address:
+## Usage
+To install this extension just head to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dvkt.vscode-ldpl)
+and click the install button. Once installed, `.ldpl` files will be highlighted automatically.
 
-https://github.com/dvkt/vscode-ldpl/issues
+We strive for utmost compatibility with and regret any errors. Kindly report
+issues you encouter at [the extension GitHub repository](https://github.com/ldpl-developers/ldpl-vsc-extension/issues).
 
-## TODO
+## Credits
 
-- [x] Snippets
-- [ ] Symbols
+This extension was originally developed by [dkvt](http://github.com/dvkt)
+for the [LDPL 19 Standard Revision 4](https://ldpl.gitbook.io/reference/).
+It has since been extended by the LDPL Community. You are welcome to contribute
+anytime you want!
