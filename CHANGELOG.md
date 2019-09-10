@@ -1,5 +1,8 @@
 # Changes
 
+## [v0.12.0]
+- Updated the syntax to LDPL 4
+
 ## [v0.11.0]
 - Snippets: `number map` and `text map` (`nm` & `tm`)
 - Snippets: `number list` and `text list` (`nl` & `tl`)

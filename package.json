@@ -1,10 +1,10 @@
 {
-    "name": "vscode-ldpl",
-    "displayName": "vscode-ldpl",
-    "description": "Support for the LDPL Programming Language",
-    "version": "0.11.0",
-    "publisher": "dvkt",
-    "repository": "https://github.com/dvkt/vscode-ldpl",
+    "name": "ldpl-vsc-extension",
+    "displayName": "LDPL VSC Highlight Extension",
+    "description": "The LDPL VSC Highlight Extension is a Visual Studio Code syntax highlighting extesion for the LDPL programming language.",
+    "version": "0.12.0",
+    "publisher": "Lartu",
+    "repository": "https://github.com/ldpl-developers/ldpl-vsc-extension",
     "icon": "icon.png",
     "galleryBanner.color": "#ffffff",
     "engines": {
