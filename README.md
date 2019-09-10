@@ -19,3 +19,7 @@ This extension was originally developed by [dkvt](http://github.com/dvkt)
 for the [LDPL 19 Standard Revision 4](https://ldpl.gitbook.io/reference/).
 It has since been extended by the LDPL Community. You are welcome to contribute
 anytime you want!
+
+## License
+
+This extension is released under the MIT License.
