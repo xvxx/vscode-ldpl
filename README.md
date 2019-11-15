@@ -5,7 +5,7 @@ syntax highlighting extesion for the [**LDPL**](https://www.github.com/lartu/ldp
 language.
 
 ## Usage
-To install this extension just head to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dvkt.vscode-ldpl)
+To install this extension just head to the [Visual Studio Marketplace](https://github.com/ldpl-developers/ldpl-vsc-extension)
 and click the install button. Once installed, `.ldpl` files will be highlighted automatically.
 
 We strive for utmost compatibility with and regret any errors. Kindly report
