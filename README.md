@@ -1,3 +1,7 @@
+**ARCHIVED:** Please use https://github.com/ldpl-developers/ldpl-vsc-extension instead.
+
+-----
+
 ![A VSCode Extension for the LDPL Program Language](dinos.JPEG)
 
 -----
