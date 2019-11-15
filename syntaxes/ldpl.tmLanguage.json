@@ -19,7 +19,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ldpl",
-				"match": "(?<=^|[\\s])((?i)procedure:|data:|parameters:|local data:|end if|end sub-procedure|end sub|greater than|equal to|less than|break|continue|do|else|external|if|is|not|repeat|return|sub-procedure|sub|then|while|for|for each|label|create statement|executing)(?=\\s|$)"
+				"match": "(?<=^|[\\s])((?i)procedure:|data:|parameters:|local data:|end if|end sub-procedure|end sub|greater than|equal to|less than|break|continue|do|else|external|if|is|not|repeat|return|sub-procedure|sub|then|while|for each|for|label|create statement|executing)(?=\\s|$)"
 			},
 			{
 				"name": "entity.name.function.ldpl",
